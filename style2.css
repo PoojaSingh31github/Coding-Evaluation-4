@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #090b1a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #1c1b37;
+  border-radius: 50px;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff57a6;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e74b9e;
+}
+.features h2 {
+    text-align: center;
+    padding: 0 1.5rem;
+  font-size: 2rem;
+}
+.features h2 span {
+  color: blue;
+}
+.features p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url("https://ibb.co/album/X7tJ5w");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero h1 span {
+  color: #ff57a6;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 20px 0 40px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-buttons {
+  margin-top: 40px;
+}
+
+.primary-btn,
+.secondary-btn {
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #4c52f8;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #6d73f8;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid #4c52f8;
+  color: #4c52f8;
+}
+
+.secondary-btn:hover {
+  background-color: #4c52f8;
+  color: white;
+}
+.logos {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backed-by {
+  margin-top: 50px;
+  text-align: center;
+}
+.blockchain-access {
+  text-align: center;
+
+  margin-top: 100px;
+  font-size: 2.5rem;
+}
+.blockchain-access span {
+  color: blue;
+}
+.backed-by p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.backed-by img {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    margin: 10px 0;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
